@@ -1,3 +1,13 @@
+header h1{
+  text-align:center;
+}
+
+#wrapper {
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+
 input {
   border: solid 1px black;
 }
@@ -28,6 +38,8 @@ input {
     color: #fff;
     background-color: #5cb85c;
     border-color: #4cae4c;
+    margin:0 auto;
+    display:block;
 }
 
 .btn-delete {
